@@ -35,8 +35,8 @@ params = {'api-version': os.environ['AZURE_SEARCH_API_VERSION']}
 ##Multi-Index Search queries
 
 # Text-based Indexes that we are going to query (from Notebook 01 and 02)
-index1_name = "kaegp-index-files"
-index2_name = "kaega-index-csv"
+index1_name = abc-index-files"
+index2_name = "abcd-index-csv"
 indexes = [index1_name,index2_name ]
 
 QUESTION = "What is CLP?"
